@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery ToDo List</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+    crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="content content-section-6">
+          <div class="box-container">
+            <div class="header">
+              <h4>ToDo List</h4>
+              <button class="btn"><i class="fas fa-plus"></i></button>
+            </div>
+            <input type="text" id="inputToDoList" placeholder="Add item" />
+            <ul id="toDoList">
+               <li><span contenteditable="false">Create meeting agenda</span><div class='button-container hidden'><a href='#' class='edit'><i class='far fa-edit '></i></a><a href='#' class='delete'><i class='fas fa-trash'></i></a></div></li>
+               <li><span contenteditable="false">Update team on the project</span><div class='button-container hidden'><a href='#' class='edit'><i class='far fa-edit '></i></a><a href='#' class='delete'><i class='fas fa-trash'></i></a></div></li>
+               <li><span contenteditable="false">Answer tech queries</span><div class='button-container hidden'><a href='#' class='edit'><i class='far fa-edit '></i></a><a href='#' class='delete'><i class='fas fa-trash'></i></a></div></li>
+               <li><span contenteditable="false">Conduct project risk assessment</span><div class='button-container hidden'><a href='#' class='edit'><i class='far fa-edit '></i></a><a href='#' class='delete'><i class='fas fa-trash'></i></a></div></li>
+               <li><span contenteditable="false">Develop communication plan</span><div class='button-container hidden'><a href='#' class='edit'><i class='far fa-edit '></i></a><a href='#' class='delete'><i class='fas fa-trash'></i></a></div></li>
+
+            </ul>
+            <div class="bottom">
+              <button id="confirm">Confirm <i class="fas fa-check-circle"></i></button>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
