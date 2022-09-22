@@ -1,5 +1,5 @@
 # TodoList-webapp
-A todo list webapp in JQuery.
+A todo list webapp using JQuery.
 
 ### Usage
 * Click on item to mark it done.
